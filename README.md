@@ -1,4 +1,4 @@
-# 斯坦福 \[CS231n\] Deep Learning for Computer Vision 学习笔记
+# \[CS231n\] Deep Learning for Computer Vision 学习笔记
 参考自https://github.com/mbadry1/CS231n-2017-Summary  
   
   
