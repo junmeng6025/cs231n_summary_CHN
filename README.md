@@ -27,11 +27,12 @@
 - [ImageNet](http://www.image-net.org/) 是当今最大的图像分类数据集之一；  
 - 自2012年以来，在基于 ImageNet 的图像识别挑战当中，CNN（卷积神经网络）一直展现出强悍的性能；  
 - 卷积神经网络 CNN (Convolutional Neural Network) 是法国计算机科学家 [杨乐昆](https://en.wikipedia.org/wiki/Yann_LeCun?wprov=sfla1) 于1997年[首次提出](http://ieeexplore.ieee.org/document/726791/)  
-- LeNet: 首个应用CNN概念的神经网络，用于识别手写字母和数字；  
-- AlexNet：使用了更深的卷积层，把CNN应用于图像识别，在ImageNet挑战当中把误差下降了近10%；  
-- VGG：全部卷积层都使用3x3的卷积核，通过多层堆叠小型卷积核替代大型卷积核（例如2层3x3相当于5x5；3层3x3相当于7x7），简化模型结构，减少模型参数；  
-- GoogLeNet：使用了Inception Layer；  
-- ResNet：使用跳跃连接，模拟残差的概念，解决了随着层数加深训练效果变差的问题。  
+- 经典 CNN 结构：
+  - LeNet: 首个应用CNN概念的神经网络，用于识别手写字母和数字；  
+  - AlexNet：使用了更深的卷积层，把CNN应用于图像识别，在ImageNet挑战当中把误差下降了近10%；  
+  - VGG：全部卷积层都使用3x3的卷积核，通过多层堆叠小型卷积核替代大型卷积核（例如2层3x3相当于5x5；3层3x3相当于7x7），简化模型结构，减少模型参数；  
+  - GoogLeNet：使用了Inception Layer；  
+  - ResNet：使用跳跃连接，模拟残差的概念，解决了随着层数加深训练效果变差的问题。  
   
 ## 02. Image Classification 图像分类  
 - 图像分类领域有许多富有挑战性的问题，例如：光照 (illumination)、视角变化 (view point)、遮挡 (occlusion) 等等；  
