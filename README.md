@@ -55,7 +55,7 @@
 - **线性支持向量机（Linear SVM）** 分类器也可用于图像分类，但 [curse of dimensions](https://en.wikipedia.org/wiki/Curse_of_dimensionality) 会导致算法卡在某处无法继续更新参数。  
 - **回归分析（Logistic Regression）** 也可用于图像分类，但事实上图像分类是非线性问题  
 - **线性分类器（Linear Classifier）** 的本质就是运行方程 `Y = w*X + b`，把输入特征 `X`（例如图像就是一系列RGB数组）转换成信息 `Y`（例如标签）   
-  - **模型参数** 包含权重`w` 和偏置`b`，其他与训练相关的参数称之为**超参数（hyperparameter）**  
+  - **模型参数**`$\theta$` 包含权重`w` 和偏置`b`，其他与训练相关的参数称之为**超参数（hyperparameter）**  
   - 权重 `w` 的形状和 `X` 相同；偏置 `b` 的形状是1（即标量）  
   - 给 `X` 增加一个元素 `1`，偏置`b`就可以一同写入权重`w`当中  
   - 分类器的目标就是找到可以把特征`X`映射到正确的信息`Y`的一组参数 `w` 和 `b`  
